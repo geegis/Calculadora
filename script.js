@@ -9,7 +9,7 @@ function limpar(){
 
 function apagar(){
     var resultado = document.getElementById('resultado').value;
-    document.getElementById('resultado').value = resultado.substring(0, resultado.length -1)
+    document.getElementById('resultado').value = resultado.substring(0, resultado.length -1);
 }
 
 function calcular(){
