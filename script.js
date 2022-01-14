@@ -1,6 +1,11 @@
 function insert(num){
     var resultado = document.getElementById('resultado').value;
     document.getElementById('resultado').value = resultado + num;
+    const limit = 10;
+    if(resultado.length > limit){
+        document.getElementById('resultado').value = resultado.substring(0, resultado.length -1);
+    }
+    
 }
 
 function limpar(){
